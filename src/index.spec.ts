@@ -1,3 +1,9 @@
+/**
+ * Sources: 
+ * https://dev.to/tylim88/typescript-test-your-generic-type-part-1-4jbc
+ * https://www.typescriptlang.org/play?#code/C4TwDgpgBA4hwGED2BXAdsA8gMwMooCNdgAnASzQHMAeAKAEhjyqB9KCAD2AjQBMBnKP1IVKAGgb4iIquy48BQmeIbJ0wOdz6D0AazRIA7mgDaAXSgBeKOdoA+K1Cai2nLYoAGAEgDew5pQAvr5SzlTBPhTYECRQACoAhmQANoEeDAD8sPBqGDihytSJKWJOhGHiNgCMpQB09bnAZnYMAFxQjSYA5Mk8lMAAFl1mtLSgkFAAohyQAMbARaUAqg7WcZoKgktQWQAU226b8TtQpCjQ7dgJyfwQAJRQl9e3o5xgSCQas0howlAJ-Fun0cRQ22lOJHOUAAPlArjcIHZdgkSJRHsdDuCztAstj0fDbg9LA4UZRRgCgQtpnMFnBEKg8nhyoUugkALRs9mcrkJLqlVldOylACsdiR2IeAHpJRDzqUwBTThBhLQKTEqTMIPNqHTGvlmQFqKyOTyeXyoAKhVAqmLdgT7lBpXDnhBSlcUkrhEA
+ */
+
 type GetCountOfSubString<
   String_ extends string,
   SubString extends string,
